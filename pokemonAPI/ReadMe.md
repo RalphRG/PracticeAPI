@@ -6,3 +6,4 @@
 ## Things I want to improve but don't know how
 
  1. I wanted to make it so that the background of the webpage is the same color as the dominant color of the pokemon
+ 2. Testing if my git works
