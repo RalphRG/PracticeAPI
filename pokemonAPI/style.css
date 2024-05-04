@@ -1,6 +1,10 @@
 body {
   margin: 0;
 }
+img{
+  width: 100%;
+  height: 100%;
+}
 .container {
   margin: 2rem;
 }
@@ -10,7 +14,10 @@ fieldset {
 #search {
   padding: 0.4rem;
 }
-
+.container{
+  display: flex;
+  justify-content: center;
+}
 .search-pok {
   color: rgb(230, 230, 230);
   text-decoration: none;
@@ -26,4 +33,24 @@ fieldset {
   background-color: #afe1af;
   color: #333;
   transform: scale(1.2, 1.2);
+}
+.card-container{
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  border: 1px solid #333;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1.5rem;
+}
+.card-container img{
+  width: 250px;
+}
+.card-container h2{
+  color: #000;
+  font-weight: 400;
+  text-align: center;
 }
