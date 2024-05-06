@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #e6ddd6;
+}
+.container{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.search-bar{
+    left: auto;
+}
+#search{
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    font-weight: 400;
+    border-radius: 15px;
+}
+#search:focus{
+    background-color: aliceblue;
+}
+#search::placeholder{
+    font-size: .8rem;
+}
+.btn-svg{
+    background-color: transparent;
+    border: none;
+}
+.btn-svg:hover{
+    filter: drop-shadow(5px 6px 1px #da4bce);
+
+}
+.search-svg{
+    fill: black;
+    margin: 4px 0 0 5px;
+}
