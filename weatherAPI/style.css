@@ -1,39 +1,87 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
-body{
-    background-color: #e6ddd6;
+body {
+  background-color: #e6ddd6;
 }
-.container{
-    padding: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+.container {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
 }
-.search-bar{
-    left: auto;
+.container-brd {
+  width: 450px;
+  height: 100px;
+  border: 1px solid #333;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 3rem;
+  box-shadow: 5px 9px 9px rgba(193, 111, 233, 0.4);
+  background-color: #e6dcf8;
 }
-#search{
-    font-size: 1.2rem;
-    padding: 5px 10px;
-    font-weight: 400;
-    border-radius: 15px;
+.search-bar {
+  position: relative;
 }
-#search:focus{
-    background-color: aliceblue;
+#search {
+  font-size: 1rem;
+  padding: 8px 10px;
+  font-weight: 400;
+  border-radius: 15px;
+  width: 15rem;
 }
-#search::placeholder{
-    font-size: .8rem;
+#search:focus {
+  background-color: aliceblue;
 }
-.btn-svg{
-    background-color: transparent;
-    border: none;
+#search::placeholder {
+  font-size: 0.8rem;
 }
-.btn-svg:hover{
-    filter: drop-shadow(5px 6px 1px #da4bce);
-
+.btn-svg {
+  background-color: transparent;
+  border: none;
 }
-.search-svg{
-    fill: black;
-    margin: 4px 0 0 5px;
+.btn-svg:hover {
+  filter: drop-shadow(5px 6px 1px #da4bce);
+}
+.search-svg {
+  fill: black;
+  margin: 4px 0 0 5px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.card {
+  border: 1px solid #333;
+  border-radius: 20px;
+  background-color: #b5a7cf;
+  box-shadow: 5px 9px 9px rgba(193, 111, 233, 0.4);
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+.place {
+  font-size: 3rem;
+  font-weight: 400;
+}
+.temp {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+.tom-forecast {
+  margin-top: auto;
+  font-size: 1.5rem;
+}
+.hidden{
+  display: none;
 }
